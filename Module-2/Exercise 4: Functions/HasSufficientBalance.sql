@@ -28,3 +28,7 @@ BEGIN
     END IF;
 END;
 /
+
+--Sql Example--
+SELECT CalculateMonthlyInstallment(100000, 7.5, 5) AS monthly_emi FROM dual;
+
