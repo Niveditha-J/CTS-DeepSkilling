@@ -22,3 +22,5 @@ BEGIN
     RETURN ROUND(v_emi, 2);
 END;
 /
+--SQL example--
+SELECT CalculateMonthlyInstallment(100000, 7.5, 5) AS monthly_emi FROM dual;
