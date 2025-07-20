@@ -1,0 +1,36 @@
+<dependencies>
+  <!-- Spring Cloud Gateway -->
+  <dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-gateway</artifactId>
+  </dependency>
+
+  <!-- Eureka Client -->
+  <dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+  </dependency>
+
+  <!-- Spring Boot Actuator (Optional Monitoring) -->
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+  </dependency>
+
+  <!-- Caching -->
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-cache</artifactId>
+  </dependency>
+  <dependency>
+    <groupId>org.ehcache</groupId>
+    <artifactId>ehcache</artifactId>
+  </dependency>
+
+  <!-- Rate Limiting (bucket4j) -->
+  <dependency>
+    <groupId>com.giffing.bucket4j.spring.boot.starter</groupId>
+    <artifactId>bucket4j-spring-boot-starter</artifactId>
+    <version>0.7.0</version>
+  </dependency>
+</dependencies>
