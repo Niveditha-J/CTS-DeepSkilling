@@ -1,0 +1,4 @@
+spring:
+  security:
+    jwt:
+      secret: my-jwt-secret-key  # Replace with your secure key
